@@ -314,7 +314,7 @@ export const skillsData = [
 export const experienceData = [
   {
     tenure: '2024 - Present',
-    category: 'Frontend Developer',
+    category: 'Frontend Engineer',
     company: 'RadixTech',
   },
   {
