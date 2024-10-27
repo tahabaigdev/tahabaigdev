@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-[62.5%];
+  }
+
+  body {
+    @apply bg-Charcoal_Black p-[2.4rem] font-JetBrains_Mono text-[1.6rem] font-normal text-Pure_White lg:px-[4rem] lg:pb-[4rem] lg:pt-[3.2rem];
+  }
+}
+
+@layer utilities {
+  .container-style {
+    @apply mx-auto max-w-[120rem];
+  }
+
+  .nav-item.active {
+    @apply text-[#c7c7c7];
+  }
+}
+
+/* Marquee Sec */
+
+.marquee-sec .rfm-marquee-container {
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 12.5%,
+    rgb(0, 0, 0) 87.5%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  user-select: none;
+  overflow: hidden;
+}
+
+.marquee-sec .rfm-marquee-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Accordion */
+
+.accordion:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+.accordion-header h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  max-width: 110rem;
+  width: 100%;
+}
+
+.accordion-header .plus-icon {
+  color: #919191;
+  font-size: 1.6rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.accordion-body {
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.accordion-body .accordion-content {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #666666;
+  padding: 0rem 0rem 2rem 0rem;
+}
