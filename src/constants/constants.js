@@ -3,13 +3,15 @@ import Home from '../pages/Home';
 import Work from '../pages/Work';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
-import projectImg1 from '../assets/images/matcheron.webp';
-import projectImg2 from '../assets/images/next-nannies.webp';
-import projectImg3 from '../assets/images/qloud.webp';
-import projectImg4 from '../assets/images/sepiolite.webp';
-import testimonialImg1 from '../assets/images/asim.jpeg';
-import testimonialImg2 from '../assets/images/shayan.jpeg';
-import testimonialImg3 from '../assets/images/abubakar.jpeg';
+import projectImg1 from '../assets/images/radix-tech.webp';
+import projectImg2 from '../assets/images/frototype-agency.webp';
+import projectImg3 from '../assets/images/matcheron.webp';
+import projectImg4 from '../assets/images/ecs-lab.webp';
+import projectImg5 from '../assets/images/qloud.webp';
+import projectImg6 from '../assets/images/sepiolite.webp';
+import testimonialImg1 from '../assets/images/asim.webp';
+import testimonialImg2 from '../assets/images/chandeep.webp';
+import testimonialImg3 from '../assets/images/abubakar-s.webp';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { FiGithub } from 'react-icons/fi';
 import { GrFacebookOption } from 'react-icons/gr';
@@ -51,59 +53,131 @@ export const navLinks = [
 // Project Data
 export const projectsData = [
   {
-    link: 'https://matcheron.com/',
-    title: 'Matcheron',
-    desc: 'Matcheron is a social dating platform that combines innovation and user-friendliness.',
+    link: 'https://www.radixtech.org/',
+    title: 'RadixTech',
+    desc: 'Website for RadixTech a MEAL service provider',
     category: 'Web Development',
-    year: '2023',
+    year: '2024',
     marqueeText: [
-      'Matcheron Social Dating Site',
-      'Matcheron Social Dating Site',
+      'RadixTech a meal service provider',
+      'RadixTech a meal service provider',
     ],
     imgUrl: projectImg1,
-    imgAlt: 'Screenshot of Matcheron social dating site',
+    imgAlt: 'Screenshot of RadixTech a MEAL service provider',
   },
   {
-    link: 'https://nextnannies.com/',
-    title: 'Next Nannies',
-    desc: 'Matcheron is a social dating platform that combines innovation and user-friendliness.',
+    link: 'https://frototype.agency/',
+    title: 'Frototype',
+    desc: 'Website for Frotoype Agency a IT service provider',
+    category: 'Web Development',
+    year: '2024',
+    marqueeText: [
+      'Frototype agency a IT service provider',
+      'Frototype agency a IT service provider',
+    ],
+    imgUrl: projectImg2,
+    imgAlt: 'Screenshot of Frotoype Agency a IT service provider',
+  },
+  {
+    link: 'https://matcheron.com/',
+    title: 'Matcheron',
+    desc: 'Website for Matcheron a social dating platform',
     category: 'Web Development',
     year: '2023',
     marqueeText: [
-      'Next Nannies Social Dating',
-      'Next Nannies Social Dating',
-      'Next Nannies Social Dating',
+      'Matcheron a social dating platform',
+      'Matcheron a social dating platform',
+    ],
+    imgUrl: projectImg3,
+    imgAlt: 'Screenshot of Matcheron a social dating platform',
+  },
+  {
+    link: 'https://sage-cendol-b79f01.netlify.app/',
+    title: 'ECS LAB',
+    desc: 'Dashboard for ECS Lab',
+    category: 'Dashboard Development',
+    year: '2024',
+    marqueeText: ['Dashboard for ECS Lab', 'Dashboard for ECS Lab'],
+    imgUrl: projectImg4,
+    imgAlt: 'Screenshot of ECS Lab',
+  },
+];
+
+export const projectsData2 = [
+  {
+    link: 'https://www.radixtech.org/',
+    title: 'RadixTech',
+    desc: 'Website for RadixTech a MEAL service provider',
+    category: 'Web Development',
+    year: '2024',
+    marqueeText: [
+      'RadixTech a meal service provider',
+      'RadixTech a meal service provider',
+    ],
+    imgUrl: projectImg1,
+    imgAlt: 'Screenshot of RadixTech a MEAL service provider',
+  },
+  {
+    link: 'https://frototype.agency/',
+    title: 'Frototype',
+    desc: 'Website for Frotoype Agency a IT service provider',
+    category: 'Web Development',
+    year: '2024',
+    marqueeText: [
+      'Frototype agency a IT service provider',
+      'Frototype agency a IT service provider',
     ],
     imgUrl: projectImg2,
-    imgAlt: 'Screenshot of Matcheron social dating site',
+    imgAlt: 'Screenshot of Frotoype Agency a IT service provider',
+  },
+  {
+    link: 'https://matcheron.com/',
+    title: 'Matcheron',
+    desc: 'Website for Matcheron a social dating platform',
+    category: 'Web Development',
+    year: '2023',
+    marqueeText: [
+      'Matcheron a social dating platform',
+      'Matcheron a social dating platform',
+    ],
+    imgUrl: projectImg3,
+    imgAlt: 'Screenshot of Matcheron a social dating platform',
+  },
+  {
+    link: 'https://sage-cendol-b79f01.netlify.app/',
+    title: 'ECS LAB',
+    desc: 'Dashboard for ECS Lab',
+    category: 'Dashboard Development',
+    year: '2024',
+    marqueeText: ['Dashboard for ECS Lab', 'Dashboard for ECS Lab'],
+    imgUrl: projectImg4,
+    imgAlt: 'Screenshot of ECS Lab',
   },
   {
     link: 'https://66c07120d9e6ac420573900f--jade-druid-c97080.netlify.app/',
     title: 'Qloud',
-    desc: 'Matcheron is a social dating platform that combines innovation and user-friendliness.',
-    category: 'Web Development',
-    year: '2023',
+    desc: 'Website for Qloud a Cloud Solutions Provider',
+    category: 'Website Development',
+    year: '2024',
     marqueeText: [
-      'Qloud Service Provider',
-      'Qloud Service Provider',
-      'Qloud Service Provider',
+      'Qloud a Cloud Solutions Provider',
+      'Qloud a Cloud Solutions Provider',
     ],
-    imgUrl: projectImg3,
-    imgAlt: 'Screenshot of Matcheron social dating site',
+    imgUrl: projectImg5,
+    imgAlt: 'Screenshot of Qloud a Cloud Solutions Provider',
   },
   {
     link: 'https://66c06a0c5b098b3a1eea1d6f--capable-pie-aef911.netlify.app/',
     title: 'Sepiolite',
-    desc: 'Matcheron is a social dating platform that combines innovation and user-friendliness.',
-    category: 'Web Development',
-    year: '2023',
+    desc: 'Website for Sepiolite a Consulting Service Provider',
+    category: 'Website Development',
+    year: '2024',
     marqueeText: [
-      'Sepiolite Service Provider',
-      'Sepiolite Service Provider',
-      'Sepiolite Service Provider',
+      'Sepiolite a Consulting Service Provider',
+      'Sepiolite a Consulting Service Provider',
     ],
-    imgUrl: projectImg4,
-    imgAlt: 'Screenshot of Matcheron social dating site',
+    imgUrl: projectImg6,
+    imgAlt: 'Screenshot of Sepiolite a Consulting Service Provider',
   },
 ];
 
@@ -112,12 +186,12 @@ export const faqsData = [
   {
     title: 'What technologies do you specialize in?',
     content:
-      'I specialize in HTML, CSS, JavaScript, and frameworks like React, using tools like Tailwind CSS for styling and GSAP for animations.',
+      'I specialize in HTML, CSS, JavaScript, and frameworks like React, using tools like Tailwind CSS for styling and GSAP,Framer Motion for animations.',
   },
   {
     title: 'What type of projects have you worked on?',
     content:
-      'From personal portfolios to complex dashboards, I have experience in building dynamic websites, integrating animations, and using tools like React Flow.',
+      'From portfolios,business websites to complex dashboards, I have experience in building dynamic websites, integrating animations, and using tools like React Flow.',
   },
   {
     title:
@@ -147,15 +221,15 @@ export const testimonialsData = [
   },
   {
     imgURL: testimonialImg2,
-    title: 'Shayan Khan',
-    subTitle: 'CEO, Spotvision Agency',
-    des: 'Taha created a visually appealing website using React. His technical skills and responsiveness made the process smooth and enjoyable.',
+    title: 'Chandeep Sindh',
+    subTitle: 'CTO, Nuscale Technologies',
+    des: 'With Taha expertise, the custom React dashboard boasts a sleek, intuitive interface that has transformed our workflow, significantly enhancing efficiency and consistently exceeding expectations.',
   },
   {
     imgURL: testimonialImg3,
     title: 'Abubakar Sheerazi',
     subTitle: 'CEO, Frototype Agency',
-    des: 'Taha built a custom React dashboard that exceeded expectations. The intuitive interface has significantly improved our workflow.',
+    des: 'Taha created a visually appealing website using React. His technical skills and responsiveness made the process smooth and enjoyable.',
   },
 ];
 
@@ -240,6 +314,11 @@ export const skillsData = [
 export const experienceData = [
   {
     tenure: '2024 - Present',
+    category: 'Frontend Developer',
+    company: 'RadixTech',
+  },
+  {
+    tenure: '2024 - 2024',
     category: 'Frontend Developer',
     company: 'Frototype Agency',
   },

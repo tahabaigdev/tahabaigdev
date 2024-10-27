@@ -17,15 +17,17 @@ const TestimonialsSec = () => {
               key={idx}
               className="flex flex-col justify-between gap-[3.4rem] rounded-[2.4rem] border-t border-[#424242] bg-[#1a1a1a] p-[2.4rem] transition-transform duration-200 hover:translate-y-[-4px] hover:scale-[1.02]"
             >
-              <img
-                src={QuoteIcon}
-                alt="Quote icon"
-                className="max-w-[2.7rem]"
-              />
+              <div className="flex flex-col gap-[3.4rem]">
+                <img
+                  src={QuoteIcon}
+                  alt="Quote icon"
+                  className="max-w-[2.7rem]"
+                />
 
-              <p className="text-[1.4rem] leading-[2.4rem] text-Light_Gray_2">
-                {item.des}
-              </p>
+                <p className="text-[1.4rem] leading-[2.4rem] text-Light_Gray_2">
+                  {item.des}
+                </p>
+              </div>
 
               <div className="flex items-center gap-[2rem]">
                 <div className="h-[4.8rem] min-w-[4.8rem] overflow-hidden rounded-full">

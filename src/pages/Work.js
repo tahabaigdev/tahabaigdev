@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import CommonHero from '../components/CommonHero/CommonHero';
-import WorkSec from '../components/WorkSec/WorkSec';
+import WorkSec2 from '../components/WorkSec/WorkSec2';
 import ContactSec from '../components/ContactSec/ContactSec';
 import { motion } from 'framer-motion';
 
@@ -12,6 +12,9 @@ const pageVariants = {
 
 const Work = () => {
   useEffect(() => {
+    // Scroll to top on page load
+    window.scrollTo(0, 0);
+
     // Set dynamic page title and description
     document.title = 'Work - Projects by Taha Baig';
     const metaDescription = document.createElement('meta');
@@ -62,7 +65,7 @@ const Work = () => {
       </div>
 
       <section aria-label="Projects">
-        <WorkSec />
+        <WorkSec2 />
       </section>
 
       <section aria-label="Contact Section">

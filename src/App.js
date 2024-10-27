@@ -4,10 +4,12 @@ import Footer from './components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import { pageRoutes } from './constants/constants';
 import { AnimatePresence } from 'framer-motion';
+import ConfettiEffect from './components/ConfettiEffect/ConfettiEffect';
 
 const App = () => {
   return (
     <>
+      <ConfettiEffect />
       <Header />
       <AnimatePresence mode="wait">
         <Routes>

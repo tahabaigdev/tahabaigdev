@@ -3,8 +3,7 @@ import CommonTitle from '../CommonTitle/CommonTitle';
 import { FaArrowTurnDown } from 'react-icons/fa6';
 import TextMarquee from './TextMarquee';
 import { motion } from 'framer-motion';
-import { projectsData } from '../../constants/constants';
-import { NavLink } from 'react-router-dom';
+import { projectsData2 } from '../../constants/constants';
 
 const WorkSec = () => {
   return (
@@ -15,7 +14,7 @@ const WorkSec = () => {
         </div>
 
         <div className="grid gap-[2.4rem] lg:grid-cols-2">
-          {projectsData.map((item, idx) => (
+          {projectsData2.map((item, idx) => (
             <motion.div key={idx} className="group" whileHover="hover">
               <a href={item.link} className="flex flex-col gap-[1.6rem]">
                 <div className="relative aspect-auto overflow-hidden rounded-[2.4rem] lg:aspect-[1/0.7]">
@@ -76,15 +75,6 @@ const WorkSec = () => {
               </a>
             </motion.div>
           ))}
-        </div>
-
-        <div className="text-center">
-          <NavLink
-            to="/work"
-            className="inline-flex h-[5rem] w-[20rem] items-center justify-center rounded-[4.2rem] border-[2px] border-Light_Gray_2 text-[1.6rem] font-normal leading-[2.4rem] tracking-[-0.2px]"
-          >
-            View More
-          </NavLink>
         </div>
       </div>
     </div>

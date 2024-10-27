@@ -15,6 +15,7 @@
   "description": "",
   "dependencies": {
     "autoprefixer": "^10.4.20",
+    "canvas-confetti": "^1.9.3",
     "framer-motion": "^11.11.10",
     "postcss": "^8.4.47",
     "prop-types": "^15.8.1",
