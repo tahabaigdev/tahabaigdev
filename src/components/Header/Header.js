@@ -41,7 +41,7 @@ const Header = () => {
             />
 
             <span className="text-[1.8rem] font-normal uppercase leading-[1.8rem]">
-              TAHA.BAIG
+              TAHABAIG
             </span>
           </NavLink>
         </div>
