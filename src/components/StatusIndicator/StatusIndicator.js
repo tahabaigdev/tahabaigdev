@@ -10,7 +10,7 @@ const StatusIndicator = () => {
         transition={{ duration: 1, repeat: Infinity }}
       />
       <span className="text-[1.4rem] font-medium leading-[1.82rem]">
-        Available for hire
+        Open for collaboration
       </span>
     </div>
   );
